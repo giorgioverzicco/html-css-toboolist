@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(246, 248, 249);
+}
+
+header {
+  background-color: white;
+}
+
+.logo-container {
+  padding: 10px 20px;
+}
+
+.logo-container > h1 {
+  display: inline-block;
+  font-size: 40px;
+}
+
+.va-m {
+  vertical-align: middle;
+}
