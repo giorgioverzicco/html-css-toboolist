@@ -73,6 +73,10 @@ header {
   font-weight: bold;
 }
 
+.task-section-title::before {
+  content: '\23F7';
+}
+
 .tasks {
   font-size: 21px;
   margin-top: 10px;
@@ -95,9 +99,17 @@ header {
   border: 2px solid rgb(105, 194, 172);
 }
 
+.task-completed::after {
+  content: '\2713';
+}
+
 .task-failed {
   color: rgb(235, 89, 82);
   border: 2px solid rgb(235, 89, 82);
+}
+
+.task-failed::after {
+  content: '\2715';
 }
 
 .tag {
