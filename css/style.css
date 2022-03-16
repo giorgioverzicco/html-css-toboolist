@@ -33,6 +33,7 @@ header {
   width: 1200px;
   background-color: white;
   margin: 0 auto 2px;
+  border-radius: 5px;
 }
 
 .btn-container {
