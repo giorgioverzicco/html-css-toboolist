@@ -77,7 +77,7 @@ header {
 
 .task-section-title::before {
   content: '\25BC';
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .tasks {
